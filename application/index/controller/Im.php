@@ -8,7 +8,9 @@ class Im extends Controller
 
     public function getSocket()
     {
-        return "adefs";
+        $arr['res'] = 200;
+        $arr['msg'] = "返回了";
+        echo  json_encode($arr);
     }
     public function test()
     {
