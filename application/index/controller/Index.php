@@ -7,8 +7,8 @@ class Index extends Controller
 {
     public function index()
     {
-
-        return $this->fetch();
+        return json(['data'=>1]);
+//        return $this->fetch();
     }
 
     public function hello($name = 'ThinkPHP5')
