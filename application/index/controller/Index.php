@@ -17,8 +17,13 @@ class Index extends Controller
 
     public function index()
     {
+        sleep(10);
         return json(['data'=>1]);
 //        return $this->fetch();
+    }
+    public function index2()
+    {
+        return json(['data'=>'接口测试']);
     }
 
     public function hello($name = 'ThinkPHP5')
